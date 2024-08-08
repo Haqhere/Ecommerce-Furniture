@@ -1,0 +1,307 @@
+{
+  "users": [
+    {
+      "id": "b20d",
+      "username": "anfazul haq",
+      "email": "anfazhaqu@gmail.com",
+      "password": "100000",
+      "Cart": [
+        {
+          "id": "2",
+          "name": "Kids Bed",
+          "price": "700",
+          "description": "Dream bed for kids",
+          "image": "https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "quantity": 2
+        },
+        {
+          "id": "3",
+          "name": "Tall Stool",
+          "price": 40,
+          "description": "Tall stool with steel legs",
+          "image": "https://images.pexels.com/photos/4913351/pexels-photo-4913351.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "ed6a",
+      "username": "anfazul haq",
+      "email": "anfazhaqu@gmail.com",
+      "password": "000000",
+      "Cart": [
+        {
+          "id": "2",
+          "name": "Kids Bed",
+          "price": "700",
+          "description": "Dream bed for kids",
+          "image": "https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "quantity": 1
+        },
+        {
+          "id": "5",
+          "name": "Steeled Bed",
+          "price": 600,
+          "description": "asthetic bed",
+          "image": "https://images.pexels.com/photos/15915807/pexels-photo-15915807/free-photo-of-bed-and-window-in-bedroom.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "name": "Kitchen Desk",
+          "price": 1200,
+          "description": "kitchen desks with long lasting metirials",
+          "image": "https://i.pinimg.com/474x/da/e8/43/dae8430f9f52ba2b1e98eb2be1669fd9.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "17",
+          "name": "Grable",
+          "price": 1500,
+          "description": "For a happy family",
+          "image": "https://i.pinimg.com/564x/d7/58/07/d758075f8861092a50a627f0e9fc4941.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "661b",
+      "username": "haqhere",
+      "email": "haqhere@gmail.com",
+      "password": "000000",
+      "Cart": []
+    },
+    {
+      "id": "01f3",
+      "username": "afnan",
+      "email": "afnan@gmail.com",
+      "password": "000000",
+      "Cart": [
+        {
+          "id": "2",
+          "name": "Kids Bed",
+          "price": "700",
+          "description": "Dream bed for kids",
+          "image": "https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+          "quantity": 1
+        },
+        {
+          "id": "8",
+          "name": "Glass door",
+          "price": "800",
+          "description": "vintage glass door",
+          "image": "https://images.pexels.com/photos/21927351/pexels-photo-21927351/free-photo-of-glass-entrance-with-shutters.jpeg?auto=compress&cs=tinysrgb&w=300",
+          "quantity": 1
+        },
+        {
+          "id": "9",
+          "name": "Kitchen Desk",
+          "price": 1000,
+          "description": "kitchen desks with long lasting metirials",
+          "image": "https://i.pinimg.com/236x/df/02/7a/df027a2d305c0c754e2888cf169ccaa9.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "10",
+          "name": "Kitchen Desk",
+          "price": 1200,
+          "description": "kitchen desks with long lasting metirials",
+          "image": "https://i.pinimg.com/474x/da/e8/43/dae8430f9f52ba2b1e98eb2be1669fd9.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "16",
+          "name": "Kitchen desk",
+          "price": 2000,
+          "description": "unrealistic modern kitchen desk",
+          "image": "https://i.pinimg.com/474x/9b/c2/28/9bc2285c13c95c7fb4d8bfc01b7b6a19.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "17",
+          "name": "Grable",
+          "price": 1500,
+          "description": "For a happy family",
+          "image": "https://i.pinimg.com/564x/d7/58/07/d758075f8861092a50a627f0e9fc4941.jpg",
+          "quantity": 1
+        },
+        {
+          "id": "911",
+          "name": "Throne ",
+          "price": 500,
+          "description": "nature throne",
+          "image": "https://i.pinimg.com/236x/8b/cd/7e/8bcd7e9e179140c4cc0d2b1895de7739.jpg",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "be8c",
+      "username": "razin ",
+      "email": "razin@gmail.com",
+      "password": "000000",
+      "Cart": []
+    },
+    {
+      "id": "8d9e",
+      "username": "mazin",
+      "email": "mazin@gmail.com",
+      "password": "000000",
+      "Cart": []
+    }
+  ],
+  "products": [
+    {
+      "id": "2",
+      "name": "Kids Bed",
+      "image": "https://images.pexels.com/photos/1648768/pexels-photo-1648768.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": "700",
+      "description": "Dream bed for kids",
+      "category": "Royal Beds"
+    },
+    {
+      "id": "3",
+      "name": "Tall Stool",
+      "image": "https://images.pexels.com/photos/4913351/pexels-photo-4913351.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": 40,
+      "description": "Tall stool with steel legs",
+      "category": "Tall Stchairs"
+    },
+    {
+      "id": "4",
+      "name": "sofa & table",
+      "image": "https://images.pexels.com/photos/4846437/pexels-photo-4846437.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "price": 420,
+      "description": "Sofa and Table combo",
+      "category": "Wooden Sofas"
+    },
+    {
+      "id": "5",
+      "name": "Steeled Bed",
+      "image": "https://images.pexels.com/photos/15915807/pexels-photo-15915807/free-photo-of-bed-and-window-in-bedroom.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": 600,
+      "description": "asthetic bed",
+      "category": "Royal Beds"
+    },
+    {
+      "id": "8",
+      "name": "Glass door",
+      "image": "https://images.pexels.com/photos/21927351/pexels-photo-21927351/free-photo-of-glass-entrance-with-shutters.jpeg?auto=compress&cs=tinysrgb&w=300",
+      "price": "800",
+      "description": "vintage glass door",
+      "category": "Wooden Doors"
+    },
+    {
+      "id": "9",
+      "name": "Kitchen Desk",
+      "image": "https://i.pinimg.com/236x/df/02/7a/df027a2d305c0c754e2888cf169ccaa9.jpg",
+      "price": 1000,
+      "description": "kitchen desks with long lasting metirials",
+      "category": "Desks"
+    },
+    {
+      "id": "10",
+      "name": "Kitchen Desk",
+      "image": "https://i.pinimg.com/474x/da/e8/43/dae8430f9f52ba2b1e98eb2be1669fd9.jpg",
+      "price": "13000",
+      "description": "kitchen desks with long lasting metirials",
+      "category": "Desks"
+    },
+    {
+      "id": "16",
+      "name": "Kitchen desk",
+      "image": "https://i.pinimg.com/474x/9b/c2/28/9bc2285c13c95c7fb4d8bfc01b7b6a19.jpg",
+      "price": 2000,
+      "description": "unrealistic modern kitchen desk",
+      "category": "Desks"
+    },
+    {
+      "id": "100",
+      "name": "Wooden diner",
+      "image": "https://i.pinimg.com/564x/be/14/92/be149264e42dd158d30776e8b9580705.jpg",
+      "price": 1000,
+      "description": "natural handicraft wooden table",
+      "category": "Desks"
+    },
+    {
+      "id": "91",
+      "name": "uniqdesko",
+      "image": "https://i.pinimg.com/564x/84/56/1f/84561fdc69b3104ed1f6810605d3923c.jpg",
+      "price": 1500,
+      "description": "Classical  and elegent design",
+      "category": "Desks"
+    },
+    {
+      "id": "911",
+      "name": "Throne ",
+      "image": "https://i.pinimg.com/236x/8b/cd/7e/8bcd7e9e179140c4cc0d2b1895de7739.jpg",
+      "price": 500,
+      "description": "nature throne",
+      "category": "Wooden Sofas"
+    },
+    {
+      "id": "17",
+      "name": "Grable",
+      "image": "https://i.pinimg.com/564x/d7/58/07/d758075f8861092a50a627f0e9fc4941.jpg",
+      "price": 1500,
+      "description": "For a happy family",
+      "category": "Desks"
+    },
+    {
+      "id": "18",
+      "name": "Sitting Plat",
+      "image": "https://i.pinimg.com/236x/75/a6/ff/75a6ff4544e37960246c78af4b4a9228.jpg",
+      "price": 800,
+      "description": "spend time together",
+      "category": "Desks"
+    },
+    {
+      "id": "",
+      "name": "Tree Fort",
+      "image": "https://i.pinimg.com/564x/06/8b/63/068b63fb7227ebe07d5092815ebdbd22.jpg",
+      "price": 2000,
+      "description": "for your child",
+      "category": "Desks"
+    },
+    {
+      "id": "",
+      "name": "Sofa ",
+      "image": "https://i.pinimg.com/564x/d0/42/ee/d042eeee1ffcb9a5034a9eca10cbb8b1.jpg",
+      "price": "400",
+      "description": "sofa on wheels",
+      "category": "Tall Stchairs"
+    },
+    {
+      "id": "",
+      "name": "Sofa L",
+      "image": "https://i.pinimg.com/564x/d1/de/2d/d1de2dfa6b59cf240e9211dcd86e5a78.jpg",
+      "price": "800",
+      "description": " be happy together",
+      "category": "Wooden Sofas"
+    },
+    {
+      "id": "",
+      "name": "Stair Case",
+      "image": "https://i.pinimg.com/564x/9c/01/2d/9c012d5d8773d8d63cce0f1fcc9265d8.jpg",
+      "price": "5000",
+      "description": "wood work",
+      "category": "Desk"
+    },
+    {
+      "id": "",
+      "name": "Stool",
+      "image": "https://i.pinimg.com/236x/41/a8/68/41a868ec19f28c3b686a23cca6fb5fd2.jpg",
+      "price": "250",
+      "description": "made with strength",
+      "category": "Tall Stchairs"
+    },
+    {
+      "id": "10",
+      "name": "Kitchen Desk",
+      "image": "https://i.pinimg.com/474x/da/e8/43/dae8430f9f52ba2b1e98eb2be1669fd9.jpg",
+      "price": "13000000",
+      "description": "kitchen desks with long lasting metirials",
+      "category": "Desks"
+    }
+  ]
+}

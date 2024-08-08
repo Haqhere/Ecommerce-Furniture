@@ -1,0 +1,76 @@
+
+.home{
+    background-image: url("https://img.freepik.com/premium-photo/blue-chair-with-green-cushion-sits-front-wall-with-blue-green-background_1023251-232357.jpg?size=626&ext=jpg&ga=GA1.1.1190375109.1721364124&semt=ais_hybrid") ;
+    border-radius: 10px;
+    position: relative;
+}
+.header-img{
+    width:1000px;
+    position:absolute;
+    z-index: -1;
+    background-size: cover;
+}
+
+.header{
+    position:relative;
+    height: 34vw;
+    margin: 40px 0px;
+    background-size: contain;
+    border-radius: 10px;
+}       
+
+
+.header-contents{
+position: absolute;
+display: flex;
+flex-direction: column;
+align-items: start;
+gap: 1.5vw;
+max-width: 100%;
+bottom: 35%;
+left: 30px;
+color: rgb(0, 0, 0);
+animation: fadein 3s; 
+ z-index:1 ;
+}
+
+
+.header-contents h2{
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    font-size:max(3.5vw,22px) ;
+}
+
+.header-contents p{
+    color: rgb(255, 255, 255);
+    font-size: 1vw;
+}
+
+.header-contents button{
+    border: none;
+    color: #000000;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: rgb(255, 255, 255);
+    font-size: max(1vw 13px);
+    border-radius: 50px;
+
+}
+
+@media(max-width:1050){
+
+    .header-contents{
+        max-width: 45%;
+    }
+}
+@media(max-width:750){
+    .header-contents{
+        max-width: 65%;
+    }
+    .header-contents p{
+        display: none;
+    }
+    .header-contents button{
+        padding: 2vw 4vw;
+    }
+}

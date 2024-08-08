@@ -1,0 +1,165 @@
+
+
+.Product-card {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to next line if necessary */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center align the cards */
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for floating effect */
+    overflow: hidden; /* Ensures rounded corners on child elements */
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth hover effects */
+    width: 300px; /* Fixed width for cards */
+    margin: 20px; /* Space around each card */
+    display: flex;
+    flex-direction: column; /* Ensure the card contents stack vertically */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Lift the card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* More prominent shadow on hover */
+  }
+  
+  .card-img-container {
+    width: 100%;
+    height: 250px; /* Fixed height for image container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure images do not overflow */
+  }
+  
+  .card-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the container area */
+    display: block;
+  }
+  
+  .card-info-container {
+    padding: 20px; /* Inner padding for text */
+    text-align: center; /* Center align the text */
+    flex-grow: 1; /* Allow the info container to take up remaining space */
+  }
+  
+  .card-info-container h2 {
+    margin: 10px 0; /* Space around heading */
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .card-info-container h6 {
+    margin: 10px 0;
+    color: #777; /* Lighter color for description */
+  }
+  
+  .card-info-container h3 {
+    color: #3aa634; /* Darker color for price */
+  }
+  
+  .card-remove-edit {
+    display: flex;
+    justify-content: space-around; /* Space out the buttons */
+    padding: 10px 20px; /* Inner padding for button container */
+    border-top: 1px solid #ffffff; /* Top border to separate from info container */
+    background-color: #ffffff; /* Light background color */
+  }
+  
+  .card-remove-edit button {
+    background-color: #000000; /* Button color */
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Smooth color transition on hover */
+  }
+  
+  .card-remove-edit button:hover {
+    background-color: #000000; /* Darker color on hover */
+  }
+  
+  .add-btn{
+    background-color: #14ae66; /* Button color */
+    color: white;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px; /* Padding for buttons */
+    border-radius: 5px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.2s; /* Smooth color transition on hover */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .modal-content button {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-content button[type="submit"] {
+    background: #000000;
+    color: white;
+  }
+  
+  .modal-content button[type="button"] {
+    background: #000000;
+    color: white;
+  }
+  

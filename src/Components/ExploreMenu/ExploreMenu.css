@@ -1,0 +1,54 @@
+.explore-menu{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.explore-menu h1{
+    color: #262626;
+    font-weight: 500;
+
+}
+
+.explore-menu-text{
+    max-width: 60%;
+    color: #262626;
+}
+
+.explore-menu-list{
+    text-align: center;    
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    margin: 20px 0px;
+    gap: 30px;
+    
+}
+
+.explore-menu-list::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-menu-list-item img{
+width: 200px;
+height: 200px;
+overflow-y: hidden;
+border-radius: 4px;
+}
+
+.explore-menu-list-item p{
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.explore-menu hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+    
+}
+
+/* .explore-menu-list-item .active{
+
+} */
